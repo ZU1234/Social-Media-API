@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/consolestorage/flexible_search_region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/consolestorage/solr_region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/CoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/aop/CreateUserOperationAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/aop/ValidateShareAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/controllers/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/dao/Impl/ShareDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/dao/Impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/dao/ShareDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/model/ShareModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/model/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/repository/ShareRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/repository/UserModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/service/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/service/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/util/CassandraConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/core/validate/UserValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/com/core/CoreApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XfLgtPX6nV2PqssY8BLtod7ME4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/done/Desktop/Social-Media-API/core&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.core.CoreApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CoreApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="" />
+      <created>1699015301973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699015301973</updated>
+      <workItem from="1699015303034" duration="441000" />
+      <workItem from="1699019705735" duration="139000" />
+      <workItem from="1699019850409" duration="39000" />
+      <workItem from="1699019896514" duration="22000" />
+      <workItem from="1699019951064" duration="1008000" />
+      <workItem from="1699275831050" duration="608000" />
+      <workItem from="1699338820407" duration="13263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
