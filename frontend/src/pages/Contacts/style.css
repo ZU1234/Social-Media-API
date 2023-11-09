@@ -1,0 +1,37 @@
+body{
+    background-color: #ff5555;
+}
+#container {
+    width: 400px;
+    background: #bdd7f5;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input {
+    width: 93%;
+    padding: 5px;
+    margin: 2px;
+    mso-ansi-font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.inputs-div{
+    width: 100%;
+}
+
+.register-button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    background-color: #ff5555;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-left: auto;
+}
