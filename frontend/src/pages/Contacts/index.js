@@ -2,6 +2,7 @@ import React from "react";
 import {useState} from "react";
 
 import "./style.css"
+import contact from "../../fetchs/Contact";
 function Contact() {
 
     const initialFormValues = {fullname: "", password: "", email: ""};
@@ -12,14 +13,27 @@ function Contact() {
         setForm({...form, [e.target.name]: e.target.value})
     }
 
-    const onSubmit = (e) => {
-        /* Formun sayfayı yeniden yüklenmesini engeller
-    // Böylece sayfanın yeniden yüklenmesi engellendiğinden,
-    // kullanıcının girdiği bilgilerin formda kalması sağlanır.*/
+    // const onSubmit = async (e) => {
+    //     /* Formun sayfayı yeniden yüklenmesini engeller
+    // // Böylece sayfanın yeniden yüklenmesi engellendiğinden,
+    // // kullanıcının girdiği bilgilerin formda kalması sağlanır.*/
+    //     e.preventDefault();
+    //     console.log("fgıgsdşhffjgk")
+    //     // if (form.fullname === "" || form.email === "" || form.password === "") {
+    //     //
+    //     //     return false;
+    //     // }
+    //
+    // }
+    const onSubmit = async (e) => {
         e.preventDefault();
-        if (form.fullname === "" || form.email === "" || form.password === "") {
-
-            return false;
+        // Diğer kodlarınız...
+        try {
+            console.log("onsubmit")
+            const data = await contact(form);
+            console.log(data);
+        } catch (error) {
+            console.error(error);
         }
     }
     //return bloğunda, formun ve giriş alanının JSX kodu bulunur.
@@ -38,8 +52,8 @@ function Contact() {
                         value={form.email}
                         onChange={onChangeInput}/>
                     <input
-                        name="phone_number"
-                        placeholder="Phone Number"
+                        name="password"
+                        placeholder="password"
                         value={form.password}
                         onChange={onChangeInput}/>
                 </div>
