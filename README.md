@@ -31,7 +31,6 @@ Bu platform, React, Java ve Cassandra veritabanı kullanılarak geliştirilmişt
 ### Cassandra'nın Başlatılması
 
 3. Docker Compose kullanarak Cassandra veritabanını başlatmak için aşağıdaki adımları izleyin:
-    - `docker-compose.yml` dosyasını projenizin ana dizinine ekleyin.
     - Terminalde projenizin ana dizinine gidin.
     - `docker-compose up` komutunu çalıştırarak Cassandra'yı başlatın.
 
