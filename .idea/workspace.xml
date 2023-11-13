@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="AOP added.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +146,7 @@
       <workItem from="1699431022081" duration="6680000" />
       <workItem from="1699530680976" duration="6146000" />
       <workItem from="1699622036442" duration="4117000" />
-      <workItem from="1699858358367" duration="15847000" />
+      <workItem from="1699858358367" duration="17710000" />
     </task>
     <servers />
   </component>
