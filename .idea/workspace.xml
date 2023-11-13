@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="AOP added.">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/home-icon-silhouette.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Icon/team.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Contacts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +144,7 @@
       <workItem from="1699431022081" duration="6680000" />
       <workItem from="1699530680976" duration="6146000" />
       <workItem from="1699622036442" duration="4117000" />
-      <workItem from="1699858358367" duration="15200000" />
+      <workItem from="1699858358367" duration="15510000" />
     </task>
     <servers />
   </component>
