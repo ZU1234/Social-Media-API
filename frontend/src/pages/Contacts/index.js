@@ -3,6 +3,7 @@ import {useState} from "react";
 
 import "./style.css"
 import contact from "../../fetchs/Contact";
+
 function Contact() {
 
     const initialFormValues = {fullname: "", password: "", email: ""};
@@ -13,20 +14,11 @@ function Contact() {
         setForm({...form, [e.target.name]: e.target.value})
     }
 
-    // const onSubmit = async (e) => {
-    //     /* Formun sayfayı yeniden yüklenmesini engeller
-    // // Böylece sayfanın yeniden yüklenmesi engellendiğinden,
-    // // kullanıcının girdiği bilgilerin formda kalması sağlanır.*/
-    //     e.preventDefault();
-    //     console.log("fgıgsdşhffjgk")
-    //     // if (form.fullname === "" || form.email === "" || form.password === "") {
-    //     //
-    //     //     return false;
-    //     // }
-    //
-    // }
     const onSubmit = async (e) => {
         e.preventDefault();
+        if (form.fullname === "" || form.email === "" || form.password === "") {
+            return false;
+        }
         // Diğer kodlarınız...
         try {
             console.log("onsubmit")
