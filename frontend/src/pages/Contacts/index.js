@@ -2,7 +2,8 @@ import React from "react";
 import {useState} from "react";
 
 import "./style.css"
-import contact from "../../fetchs/Contact";
+import contactFetch from "../../fetchs/Contact";
+import Index from "../../components/Header";
 
 function Contact() {
 
@@ -22,7 +23,7 @@ function Contact() {
         // Diğer kodlarınız...
         try {
             console.log("onsubmit")
-            const data = await contact(form);
+            const data = await contactFetch(form);
             console.log(data);
         } catch (error) {
             console.error(error);
@@ -30,7 +31,8 @@ function Contact() {
     }
     //return bloğunda, formun ve giriş alanının JSX kodu bulunur.
     return (
-        <div>
+
+        <Index>
             <form onSubmit={onSubmit}>
                 <div className="inputs-div">
                     <input
@@ -52,7 +54,7 @@ function Contact() {
                 <button className="register-button" type="submit"> Add</button>
             </form>
             <p>Zaten bir hesabınız var mı? Giriş yapmak için <a href={"/login"}> Buraya tıklayın.</a></p>
-        </div>
+        </Index>
 
     )
 

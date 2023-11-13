@@ -1,0 +1,29 @@
+/* Style.css */
+
+.header {
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Diğer elemanları en sol ve en sağa yaslar */
+}
+
+.header ul li {
+    margin: 0 10px;
+
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 3px;
+    padding-right: 3px;
+}
