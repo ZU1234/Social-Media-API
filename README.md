@@ -1,6 +1,6 @@
 # CodesHelp
 
-CodesHelp, yazılım geliştiricilerin bir araya gelip birbirlerine yardımcı olduğu bir platformdur. Bu platform, yazılımcıların birbirleriyle iletişim kurmasını, sorular sormasını ve cevaplamasını, arkadaşlar eklemesini ve konu bazlı sohbet grupları oluşturmasını sağlar.
+CodesHelp, yazılım geliştiricilerin bir araya gelip birbirlerine yardımcı olduğu bir platformdur. Bu web apidir, yazılımcıların birbirleriyle iletişim kurmasını, sorular sormasını ve cevaplamasını, arkadaşlar eklemesini ve konu bazlı sohbet grupları oluşturmasını sağlar.
 
 ## Özellikler (Geliştiriliyor)
 
