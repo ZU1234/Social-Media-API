@@ -1,8 +1,7 @@
-package com.core.controllers;
+package com.controllers.controllers;
 
 import com.core.model.ShareModel;
 import com.core.model.UserModel;
-import com.core.model.enums.Status;
 import com.core.service.ShareService;
 import com.core.service.UserService;
 import org.springframework.http.ResponseEntity;

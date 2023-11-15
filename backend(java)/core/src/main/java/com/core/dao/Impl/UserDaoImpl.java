@@ -4,11 +4,13 @@ import com.core.dao.UserDao;
 import com.core.model.UserModel;
 import com.core.repository.UserModelRepository;
 import com.core.validate.UserValidate;
+import io.netty.util.internal.StringUtil;
 import org.springframework.data.cassandra.core.CassandraOperations;
 import org.springframework.data.cassandra.core.CassandraTemplate;
 import org.springframework.data.cassandra.core.query.Criteria;
 import org.springframework.data.cassandra.core.query.Query;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 
@@ -30,6 +32,7 @@ public class UserDaoImpl implements UserDao {
     public UserModel save(UserModel user) {
         userValidate.checkEmailUniqueness(user.getEmail());
         return cassandraOperations.insert(user);
+
     }
 
     @Override
