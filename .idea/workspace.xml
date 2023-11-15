@@ -5,168 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="AOP added.">
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/consolestorage/flexible_search_region.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/consolestorage/solr_region.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/hybrisProjectSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/CoreApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/aop/CreateUserOperationAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/aop/ValidateShareAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/controllers/ShareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/dao/Impl/ShareDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/dao/Impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/dao/ShareDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/model/ShareModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/model/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/repository/ShareRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/repository/UserModelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/service/ShareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/service/impl/ShareServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/util/CassandraConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/util/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/java/com/core/validate/UserValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/src/test/java/com/core/CoreApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/core/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/facade/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/facade/src/main/java/com/facade/FacadeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/facade/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend(java)/facade/src/test/java/com/facade/FacadeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/java/com/facade/FacadeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facade/src/test/java/com/facade/FacadeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/.idea/hybrisProjectSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/home-icon-silhouette.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/team.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/fetchs/Contact/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/src/main/java/com/controller/ControllerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend(java)/controller/src/test/java/com/controller/ControllerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/frontend(react).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/hybrisProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/consolestorage/flexible_search_region.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/consolestorage/solr_region.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/hybrisProjectSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/CoreApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/aop/CreateUserOperationAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/aop/ValidateShareAop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/controllers/ShareController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/dao/Impl/ShareDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/dao/Impl/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/dao/ShareDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/model/ShareModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/model/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/model/enums/Status.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/repository/ShareRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/repository/UserModelRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/service/ShareService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/service/impl/ShareServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/util/CassandraConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/util/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/core/validate/UserValidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/core/CoreApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/hybrisProjectSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Contact/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/home-icon-silhouette.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Icon/team.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/fetchs/Contact/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contacts/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contacts/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend(java)/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend(java)/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,36 +58,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "/home/done/Desktop/Social-Media-API/backend(java)/facade",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/done/Desktop/Social-Media-API/frontend/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "ts.external.directory.path": "/home/done/Documents/ideaIU-2023.2.3/idea-IU-232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/done/Desktop/Social-Media-API/backend(java)/facade&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/done/Desktop/Social-Media-API/frontend/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/done/Documents/ideaIU-2023.2.3/idea-IU-232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -253,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CoreApplication">
+  <component name="RunManager" selected="npm.start">
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.core.CoreApplication" />
@@ -267,8 +126,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FacadeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="facade" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.facade.FacadeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <package-json value="$PROJECT_DIR$/frontend(react)/frontend/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -279,6 +146,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.start" />
+      <item itemvalue="Spring Boot.FacadeApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
     </list>
     <recent_temporary>
@@ -308,6 +176,7 @@
       <workItem from="1699622036442" duration="4117000" />
       <workItem from="1699858358367" duration="18967000" />
       <workItem from="1699884790498" duration="648000" />
+      <workItem from="1699971871307" duration="1208000" />
     </task>
     <servers />
   </component>
