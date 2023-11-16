@@ -9,18 +9,17 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
-public class UserConverter implements Converter<UserDto, UserModel> {
-    public UserModel convert(UserDto source) {
-        UserModel target = new UserModel();
+public class UserReverseConverter implements Converter<UserModel, UserDto> {
+    @Override
+    public UserDto convert(UserModel source) {
+        UserDto target = new UserDto();
         target.setEmail(source.getEmail());
         target.setFullname(source.getFullname());
         target.setPassword(source.getPassword());
         return target;
     }
 
-    public List<UserModel> convert(List<UserDto> sourceList) {
-        return sourceList.stream()
-                .map(this::convert)
-                .collect(Collectors.toList());
+    public List<UserDto> convertReverse(List<UserModel> sourceList) {
+        return sourceList.stream().map(this::convert).collect(Collectors.toList());
     }
 }

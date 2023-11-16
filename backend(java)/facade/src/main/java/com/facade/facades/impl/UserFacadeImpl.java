@@ -13,16 +13,18 @@ import java.util.List;
 public class UserFacadeImpl implements UserFacade {
     private final UserService userService;
     private final Converter<UserModel, UserDto>  userConverter;
+    private final Converter<UserDto,UserModel>  userReverseConverter;
 
-    public UserFacadeImpl(UserService userService, Converter<UserModel, UserDto> userConverter) {
+    public UserFacadeImpl(UserService userService, Converter<UserModel, UserDto> userConverter, Converter<UserDto, UserModel> userReverseConverter) {
         this.userService = userService;
         this.userConverter = userConverter;
+        this.userReverseConverter = userReverseConverter;
     }
 
 
     @Override
-    public UserDto save(UserModel user) {
-        return userConverter.convert(userService.save(user));
+    public void save(UserDto user) {
+        userService.save(userReverseConverter.convert(user));
     }
 
     @Override

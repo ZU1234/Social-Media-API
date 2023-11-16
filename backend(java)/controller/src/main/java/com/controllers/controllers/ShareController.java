@@ -1,44 +1,33 @@
 package com.controllers.controllers;
 
-import com.core.model.ShareModel;
-import com.core.model.UserModel;
-import com.core.service.ShareService;
-import com.core.service.UserService;
+import com.controllers.form.ShareForm;
+import com.facade.dto.ShareDto;
+import com.facade.facades.ShareFacade;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 import java.util.List;
 
 @RestController
+@RequestMapping("/share")
 public class ShareController {
-    private final ShareService shareService;
-    private final UserService userService;
+    private final ShareFacade shareFacade;
 
-    public ShareController(ShareService shareService, UserService userService) {
-        this.shareService = shareService;
-        this.userService = userService;
+    public ShareController(ShareFacade shareFacade) {
+        this.shareFacade = shareFacade;
     }
 
-    @PostMapping("/share")
-    public ResponseEntity<ShareModel> save(@RequestBody ShareModel shareModel) {
+    @PostMapping()
+    public ResponseEntity<Object> save(@RequestBody ShareForm form) {
+        ShareDto share = new ShareDto();
+        share.setDescription(form.getDescription());
 
-        UserModel user=  userService.findByEmail("test@test.com");
-        System.out.printf(user.getPk().toString());
-
-        ShareModel share = new ShareModel();
-        share.setUserPk(user.getPk());
-        share.setDescription(shareModel.getDescription());
-        share.setStartDate(new Date());
-        share.setStatus(shareModel.getStatus());
-        return ResponseEntity.ok (shareService.save(share));
+        shareFacade.save(share);
+        return ResponseEntity.ok("");
     }
 
-    @GetMapping("/share")
-    public ResponseEntity<List<ShareModel>> getList(){
-        return ResponseEntity.ok(shareService.getList());
+    @GetMapping()
+    public ResponseEntity<List<ShareDto>> getList() {
+        return ResponseEntity.ok(shareFacade.getList());
     }
 }
