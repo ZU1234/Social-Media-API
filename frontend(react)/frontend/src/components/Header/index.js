@@ -5,22 +5,23 @@ import './Style.css';
 import {HomeIcon, ChatIcon, ProfileIcon, QuestionIcon, TeamIcon} from "./Icon/index"; // Header stillerinin olduğu dosya
 
 const Header = () => {
+
     return (
         <header className="header">
-            <nav>
-                <ul>
+
+                <ul className="menu-bar">
                     <li>
                        <HomeIcon/>
                        <ChatIcon/>
                     </li>
-                    <h1 >CODES HELP </h1>
+                    <center >CODES HELP </center>
                     <li>
                         <TeamIcon/>
                         <QuestionIcon/>
                         <ProfileIcon/>
                     </li>
                 </ul>
-            </nav>
+
         </header>
     );
 };

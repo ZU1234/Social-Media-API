@@ -1,29 +1,57 @@
 /* Style.css */
 
 .header {
-
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     width: 100%;
-    background-color: #f0f0f0;
+    height: 100px;
+    background-color: #1b4ca8;
+    align-items: baseline; /*yatayda hizalama*/
+    padding: 1%;
+
+}
+
+.header .menu-bar {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-position: center;
+
 }
 
 .header ul {
     list-style: none;
     display: flex;
     justify-content: space-between; /* Diğer elemanları en sol ve en sağa yaslar */
+    align-items: baseline; /*yatayda hizalama*/
+    padding: 1%;
+    background-color: #b90daa;
 }
 
 .header ul li {
+    padding: 1%;
     margin: 0 10px;
-
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.header ul li a {
-    text-decoration: none;
-    color: #333;
-    padding-left: 3px;
-    padding-right: 3px;
+.header center {
+
+    height:auto;
+    font-size: 200%;
+    font-weight: bold;
+    background-position: center;
 }
+
+.header ul li .icon {
+    padding: 2%;
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline; /*yatayda hizalama*/
+}
+
+
