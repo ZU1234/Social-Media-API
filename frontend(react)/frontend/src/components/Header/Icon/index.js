@@ -1,11 +1,11 @@
 // HomeIcon.js
 
 import React from 'react';
-import { ReactComponent as Home } from './home-icon-silhouette.svg'; // SVG dosyasının yolu
-import  Chat  from './chat.png'; // png dosyasının yolu
-import Profile from './profile.png';
-import Question from './question.png';
-import Team from './team.png';
+import { ReactComponent as Home } from '../img/home-icon-silhouette.svg'; // SVG dosyasının yolu
+import  Chat  from '../img/chat.png'; // png dosyasının yolu
+import Profile from '../img/profile.png';
+import Question from '../img/question.png';
+import Team from '../img/team.png';
 
 import "./Style.css";
 

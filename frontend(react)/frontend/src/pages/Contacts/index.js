@@ -3,9 +3,8 @@ import {useState} from "react";
 
 import "./style.css"
 import contactFetch from "../../fetchs/Contact";
-import Index from "../../components/Header";
 
-function Contact() {
+function Contacts() {
 
     const initialFormValues = {fullname: "", password: "", email: ""};
     //State'ler kullanıcıdan alınacak bilgileri tutar.
@@ -32,7 +31,7 @@ function Contact() {
     //return bloğunda, formun ve giriş alanının JSX kodu bulunur.
     return (
 
-        <Index>
+        <div>
             <form onSubmit={onSubmit}>
                 <div className="inputs-div">
                     <input
@@ -54,10 +53,10 @@ function Contact() {
                 <button className="register-button" type="submit"> Add</button>
             </form>
             <p>Zaten bir hesabınız var mı? Giriş yapmak için <a href={"/login"}> Buraya tıklayın.</a></p>
-        </Index>
+        </div>
 
     )
 
 }
 
-export default Contact;
+export default Contacts;
