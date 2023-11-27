@@ -8,7 +8,7 @@ import './Style.css';
 const ProfileIcon = () => {
     return (
         <Dropdown>
-            <Dropdown.Toggle id="profile-dropdown" className="profile-icon-container">
+            <Dropdown.Toggle id="profile-dropdown" className="dropdown-menu">
                 <img className={"icon"} src={ProfileIconImage} alt="Profile Icon" />
             </Dropdown.Toggle>
 

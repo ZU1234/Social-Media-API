@@ -17,17 +17,6 @@ const HomeIcon = () => {
                 </Dropdown.Toggle>
             </Dropdown>
 
-            {/*<nav className={`menu ${isMenuOpen ? 'open' : ''}`}>*/}
-            {/*    <ul>*/}
-            {/*        <li>Home</li>*/}
-            {/*        <li>About</li>*/}
-            {/*        <li>Contact</li>*/}
-            {/*    </ul>*/}
-            {/*</nav>*/}
-
-            {/*<button className="menu-toggle" onClick={toggleMenu}>*/}
-            {/*    Menu*/}
-            {/*</button>*/}
         </header>
     );
 };

@@ -25,7 +25,7 @@ Bu platform, React, Java ve Cassandra veritabanı kullanılarak geliştirilmişt
 ### Gereksinimlerin Yüklenmesi
 
 2. Proje dizinine gidin ve gereksinimlerinizi yüklemek için aşağıdaki komutları çalıştırın:
-    - React için: `npm install`
+    - React için:`sudo apt install npm`
     - Java için: Maven kullanarak gerekli bağımlılıkları yükleyin.
 
 ### Cassandra'nın Başlatılması
