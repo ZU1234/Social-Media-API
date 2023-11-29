@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="AOP added.">
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/friends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/friendsIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profileIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/questionIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ChatIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ChatIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/HomeIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/HomeIcon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ProfileIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ProfileIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/QuestionsIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/QuestionsIcon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/TeamIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/TeamIcon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/question.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/question.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/chatIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/home-icon-silhouette.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/homeIcon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/teamIcon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/style.css" afterDir="false" />
     </list>
@@ -102,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Spring Boot.ControllerApplication">
     <configuration name="ControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="controller" />
@@ -181,6 +189,7 @@
       <workItem from="1701155308420" duration="89000" />
       <workItem from="1701157393573" duration="13000" />
       <workItem from="1701167298800" duration="8088000" />
+      <workItem from="1701181261197" duration="966000" />
     </task>
     <servers />
   </component>

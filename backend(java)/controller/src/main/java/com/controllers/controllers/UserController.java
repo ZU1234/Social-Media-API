@@ -19,7 +19,11 @@ public class UserController {
 
     @GetMapping()
     public ResponseEntity<Object> find() {
-        return ResponseEntity.ok(userFacade.getAllUsers());
+        try {
+            return ResponseEntity.ok(userFacade.getAllUsers());
+        }catch (Exception e){
+            return ResponseEntity.badRequest().body("error");
+        }
     }
 
     @PostMapping()
@@ -29,14 +33,20 @@ public class UserController {
         dto.setFullname(form.getName() + StringUtil.SPACE + form.getSurname());
         dto.setEmail(form.getEmail());
         dto.setPassword(form.getPassword());
-
-        userFacade.save(dto);
-
-        return ResponseEntity.ok("successful");
+        try{
+            userFacade.save(dto);
+            return ResponseEntity.ok("successful");
+        }catch (Exception e){
+            return ResponseEntity.badRequest().body("error");
+        }
     }
 
     @PostMapping("/del")
     public ResponseEntity<Object> delete(@RequestBody String id) {
-        return ResponseEntity.ok(userFacade.delete(id));
+        try {
+            return ResponseEntity.ok(userFacade.delete(id));
+        }catch (Exception e){
+            return ResponseEntity.badRequest().body("error");
+        }
     }
 }
