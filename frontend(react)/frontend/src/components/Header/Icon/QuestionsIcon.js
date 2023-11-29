@@ -2,7 +2,7 @@ import React from 'react';
 import { Dropdown } from 'react-bootstrap';
 
 import './Style.css';
-import Question from '../img/question.png';
+import Question from '../img/questionIcon.png';
 
 const QuestionIcon = () => {
     return (

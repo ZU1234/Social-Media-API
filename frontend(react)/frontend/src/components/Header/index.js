@@ -14,7 +14,7 @@ const Header = () => {
                        <HomeIcon/>
                        <ChatIcon/>
                     </li>
-                    <center >CODES HELP </center>
+                    <center className={"big-title"}>CODES HELP </center>
                     <li>
                         <TeamIcon/>
                         <QuestionIcon/>

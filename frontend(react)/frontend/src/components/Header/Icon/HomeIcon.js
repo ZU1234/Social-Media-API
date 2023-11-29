@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ReactComponent as Home } from '../img/home-icon-silhouette.svg';
+import { ReactComponent as Home } from '../img/homeIcon.svg';
 import {Dropdown} from "react-bootstrap"; // SVG dosyasının yolu
 
 const HomeIcon = () => {

@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
 import {Dropdown} from "react-bootstrap"; // SVG dosyasının yolu
 import './Style.css';
-import Team from '../img/team.png';
+import Team from '../img/friendsIcon.png';
 const  TeamIcon = () => {
 
     return (

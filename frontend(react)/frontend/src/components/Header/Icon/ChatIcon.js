@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {Dropdown} from "react-bootstrap"; // SVG dosyasının yolu
-import  Chat  from '../img/chat.png';
+import  Chat  from '../img/chatIcon.png';
 import './Style.css';
-import ProfileIconImage from "../img/profile.png";
+import ProfileIconImage from "../img/profileIcon.png";
 const ChatIcon = () => {
 
     return (

@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b2e4896-ca0e-4daa-a407-71bd1ead3a13" name="Changes" comment="AOP added.">
-      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ChatIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/friends.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/HomeIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/HomeIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ProfileIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/ProfileIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/TeamIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Icon/TeamIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/question.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/img/question.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend(react)/frontend/src/pages/Contacts/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,36 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "/home/zu/Desktop/Social-Media-API/frontend(react)/frontend/package.json",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/done/Desktop/Social-Media-API/frontend/node_modules/react-scripts",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "ts.external.directory.path": "/home/done/Documents/ideaIU-2023.2.3/idea-IU-232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zu/Desktop/gratis/core-customize&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/done/Desktop/Social-Media-API/frontend/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/done/Documents/ideaIU-2023.2.3/idea-IU-232.10072.27/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -174,7 +176,11 @@
       <workItem from="1699858358367" duration="18967000" />
       <workItem from="1699884790498" duration="648000" />
       <workItem from="1699971871307" duration="1208000" />
-      <workItem from="1701094873508" duration="951000" />
+      <workItem from="1701094873508" duration="2216000" />
+      <workItem from="1701155157462" duration="143000" />
+      <workItem from="1701155308420" duration="89000" />
+      <workItem from="1701157393573" duration="13000" />
+      <workItem from="1701167298800" duration="8088000" />
     </task>
     <servers />
   </component>

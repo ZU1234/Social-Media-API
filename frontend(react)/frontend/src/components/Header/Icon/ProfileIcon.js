@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import ProfileIconImage from '../img/profile.png';
+import ProfileIconImage from '../img/profileIcon.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Style.css';
@@ -8,7 +8,7 @@ import './Style.css';
 const ProfileIcon = () => {
     return (
         <Dropdown>
-            <Dropdown.Toggle id="profile-dropdown" className="dropdown-menu">
+            <Dropdown.Toggle id="profile-dropdown" className="profile-icon-container">
                 <img className={"icon"} src={ProfileIconImage} alt="Profile Icon" />
             </Dropdown.Toggle>
 
