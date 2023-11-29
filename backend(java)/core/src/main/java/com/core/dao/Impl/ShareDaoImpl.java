@@ -10,7 +10,7 @@ import java.util.UUID;
 
 @Service
 public class ShareDaoImpl implements ShareDao {
-    private ShareRepository shareRepository;
+    private final ShareRepository shareRepository;
 
     public ShareDaoImpl(ShareRepository shareRepository) {
         this.shareRepository = shareRepository;

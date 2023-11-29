@@ -7,7 +7,6 @@ import io.netty.util.internal.StringUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -21,7 +20,7 @@ public class UserController {
     public ResponseEntity<Object> find() {
         try {
             return ResponseEntity.ok(userFacade.getAllUsers());
-        }catch (Exception e){
+        } catch (Exception e) {
             return ResponseEntity.badRequest().body("error");
         }
     }
@@ -33,10 +32,11 @@ public class UserController {
         dto.setFullname(form.getName() + StringUtil.SPACE + form.getSurname());
         dto.setEmail(form.getEmail());
         dto.setPassword(form.getPassword());
-        try{
+
+        try {
             userFacade.save(dto);
             return ResponseEntity.ok("successful");
-        }catch (Exception e){
+        } catch (Exception e) {
             return ResponseEntity.badRequest().body("error");
         }
     }
@@ -45,7 +45,7 @@ public class UserController {
     public ResponseEntity<Object> delete(@RequestBody String id) {
         try {
             return ResponseEntity.ok(userFacade.delete(id));
-        }catch (Exception e){
+        } catch (Exception e) {
             return ResponseEntity.badRequest().body("error");
         }
     }

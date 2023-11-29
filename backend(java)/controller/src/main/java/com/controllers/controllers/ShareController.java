@@ -6,8 +6,6 @@ import com.facade.facades.ShareFacade;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequestMapping("/share")
 public class ShareController {
@@ -21,13 +19,20 @@ public class ShareController {
     public ResponseEntity<Object> save(@RequestBody ShareForm form) {
         ShareDto share = new ShareDto();
         share.setDescription(form.getDescription());
-
-        shareFacade.save(share);
-        return ResponseEntity.ok("");
+        try {
+            shareFacade.save(share);
+            return ResponseEntity.ok("Succesfull");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Error");
+        }
     }
 
     @GetMapping()
-    public ResponseEntity<List<ShareDto>> getList() {
-        return ResponseEntity.ok(shareFacade.getList());
+    public ResponseEntity<Object> getList() {
+        try {
+            return ResponseEntity.ok(shareFacade.getList());
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Error");
+        }
     }
 }
