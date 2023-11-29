@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  cassandra:
+  my-cassandra:
     image: cassandra:latest
     container_name: my-cassandra
     ports:
@@ -10,4 +10,15 @@ services:
       - CASSANDRA_DC=datacenter1
     volumes:
       - ./cassandra_data:/var/lib/cassandra
+    command: 
+      - "cassandra"
+      - "-f"  # Cassandra'yı başlatırken ön planda çalıştır
+      - "-e"  # CQL komutları için etkinleştir
+
+    # Cassandra başladıktan sonra çalıştırılacak komutlar
+    healthcheck:
+      test: ["CMD", "cqlsh", "-e", "CREATE KEYSPACE IF NOT EXISTS sosyalmedyaapi WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
 
